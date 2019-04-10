@@ -1,26 +1,63 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import {
+  BrowserRouter as Router,
+  Link,
+  NavLink,
+  Route
+} from "react-router-dom";
+import "./App.css";
+import About from "./pages/About";
+import Blog from "./pages/Blog";
+import Work from "./pages/Work";
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.tsx</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
+      <Router>
+        <div className="App">
+          <header className="App-header">
+            <div className="logo">
+              <Link to="/" className="logo-link">
+                <span className="purple">purple</span>shell
+              </Link>
+            </div>
+            <ul className="site-nav">
+              <li>
+                <NavLink
+                  to="/about"
+                  className="nav-link"
+                  activeClassName="active"
+                >
+                  <span>about</span>
+                </NavLink>
+              </li>
+              <li>
+                <NavLink
+                  to="/work"
+                  className="nav-link"
+                  activeClassName="active"
+                >
+                  <span>work</span>
+                </NavLink>
+              </li>
+              <li>
+                <NavLink
+                  to="/blog"
+                  className="nav-link"
+                  activeClassName="active"
+                >
+                  <span>blog</span>
+                </NavLink>
+              </li>
+            </ul>
+          </header>
+          <div className="content">
+            <Route path="/about" exact component={About} />
+            <Route path="/work" component={Work} />
+            <Route path="/blog" component={Blog} />
+          </div>
+        </div>
+      </Router>
     );
   }
 }
