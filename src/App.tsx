@@ -17,20 +17,11 @@ class App extends Component {
         <div className="App">
           <header className="App-header">
             <div className="logo">
-              <Link to="/" className="logo-link">
-                <span className="purple">purple</span>shell
+              <Link to="/work" className="logo-link">
+                <span className="purple">purple</span>Shell
               </Link>
             </div>
             <ul className="site-nav">
-              <li>
-                <NavLink
-                  to="/about"
-                  className="nav-link"
-                  activeClassName="active"
-                >
-                  <span>about</span>
-                </NavLink>
-              </li>
               <li>
                 <NavLink
                   to="/work"
@@ -38,6 +29,15 @@ class App extends Component {
                   activeClassName="active"
                 >
                   <span>work</span>
+                </NavLink>
+              </li>
+              <li>
+                <NavLink
+                  to="/about"
+                  className="nav-link"
+                  activeClassName="active"
+                >
+                  <span>about</span>
                 </NavLink>
               </li>
               <li>
@@ -52,6 +52,7 @@ class App extends Component {
             </ul>
           </header>
           <div className="content">
+            {/* <Route path="/" component={Work} /> */}
             <Route path="/about" exact component={About} />
             <Route path="/work" component={Work} />
             <Route path="/blog" component={Blog} />

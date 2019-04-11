@@ -6,24 +6,25 @@ export default ({ match }: any) => {
   return (
     <div>
       <Route path={`${match.path}/:projectId`} component={Project} />
-      <Route exact path={match.path} component={WorkNav} />
-    </div>
-  );
-};
-
-const WorkNav = ({ match }: any) => {
-  return (
-    <>
       <h2>Projects</h2>
 
       <ul>
         <li>
-          <Link to={`${match.url}/components`}>Components</Link>
+          <Link to={`${match.url}/overload`}>Overload</Link>
         </li>
         <li>
-          <Link to={`${match.url}/props-v-state`}>Props v. State</Link>
+          <Link to={`${match.url}/vaster`}>Vaster</Link>
+        </li>
+        <li>
+          <Link to={`${match.url}/this-site`}>This Site</Link>
+        </li>
+        <li>
+          <Link to={`${match.url}/gabe`}>Gabe</Link>
+        </li>
+        <li>
+          <Link to={`${match.url}/blog`}>Blog</Link>
         </li>
       </ul>
-    </>
+    </div>
   );
 };

@@ -18,6 +18,10 @@
   justify-self: start;
 }
 
+.purple {
+  color: #826d94;
+}
+
 .logo-link,
 .nav-link {
   text-decoration: none;
