@@ -1,0 +1,81 @@
+/* --------------------------------------
+
+Text - Size & style
+
+-------------------------------------- */
+html {
+  font-size: 10px;
+}
+
+.logo,
+a,
+p,
+h1,
+h2,
+h3,
+h4 {
+  color: #ccc;
+  font-family: "Dosis", sans-serif;
+  text-decoration: none;
+  transition: color 0.75s ease;
+}
+
+.logo {
+  font-family: "Exo 2", sans-serif;
+}
+
+a:hover {
+  color: $primary-color;
+}
+
+.red {
+  color: red;
+}
+
+.name {
+  display: inline;
+  font-size: 5.5em;
+}
+
+.jumbotron {
+  /*text-align: center;*/
+  max-width: 480px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 400px;
+}
+
+.service-description {
+  text-align: right;
+  margin-bottom: 60px;
+}
+
+.job-description {
+  padding-left: 4px;
+}
+
+.cta-btn {
+  display: block;
+}
+
+.cta-link {
+  box-sizing: border-box;
+  display: inline-block;
+  margin-left: 42.5%;
+  margin-right: 42.5%;
+  width: 15%;
+  color: #ccc;
+  padding: 10px 0;
+  border: 1px solid $primary-color;
+  background: none;
+  font-size: 1.1em;
+  text-align: center;
+  background-color: $primary-color;
+}
+
+.cta-link:hover {
+  background-color: #cccccc;
+  border-color: #cccccc;
+  transition: 0.5s;
+  cursor: pointer;
+}

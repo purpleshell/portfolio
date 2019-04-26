@@ -1,6 +1,14 @@
 import React from "react";
-import Construction from "./Construction";
+import { posts } from "../componenets/Data";
+import PostPreview from "../componenets/PostPreview";
 
-export default () => {
-  return <Construction />;
+export default ({ match }: any) => {
+  const url = `${match.url}`;
+  return (
+    <>
+      {posts.map((post, i) => (
+        <PostPreview key={i} postInfo={post} blogUrl={url} />
+      ))}
+    </>
+  );
 };

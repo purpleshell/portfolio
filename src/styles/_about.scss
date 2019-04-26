@@ -1,0 +1,41 @@
+/* --------------------------------------
+
+ About Page
+
+----------------------------------------- */
+
+.about {
+  margin-top: 175px;
+  margin-bottom: 60px;
+  display: table-cell;
+  vertical-align: middle;
+  padding: 0 15px;
+}
+
+.about-photo {
+  width: 300px;
+  height: 350px;
+  border: 1px solid #cccccccc;
+}
+
+.about-txt {
+  width: 62%;
+  float: right;
+  margin-top: 60px;
+  box-sizing: border-box;
+}
+
+.mini-intro {
+  font-size: 0.9em;
+  font-family: "Exo 2", sans-serif;
+}
+
+.intro {
+  font-size: 5em;
+}
+
+.about-description p {
+  margin-top: 20px;
+  font-size: 1.1em;
+  font-family: "Exo 2", sans-serif;
+}
