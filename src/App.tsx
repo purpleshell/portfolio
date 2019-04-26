@@ -6,12 +6,13 @@ import {
   Route
 } from "react-router-dom";
 import Post from "./componenets/Post";
+import logo from "./images/purp3.svg";
 import About from "./pages/About";
 import Blog from "./pages/Blog";
+import Home from "./pages/Home";
 import Work from "./pages/Work";
 
 class App extends Component {
-  logo = require("./images/purp3.svg");
   render() {
     return (
       <Router>
@@ -22,7 +23,7 @@ class App extends Component {
           <header className="App-header">
             <nav>
               <Link to="/" className="logo">
-                <img src={this.logo} />
+                <img src={logo} />
               </Link>
               <ul className="site-nav">
                 <li>
@@ -65,8 +66,9 @@ class App extends Component {
             </nav>
           </header>
           <div className="content">
+            <Route path="/" exact component={Home} />
             <Route path="/about" exact component={About} />
-            <Route exact path={["/", "/work"]} component={Work} />
+            <Route exact path={"/work"} component={Work} />
             <Route exact path="/blog" component={Blog} />
             <Route exact path="/blog/:id" component={Post} />
           </div>

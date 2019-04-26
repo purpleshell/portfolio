@@ -28,13 +28,17 @@ a:hover {
   color: $primary-color;
 }
 
+.primary {
+  color: $primary-color;
+}
+
 .red {
   color: red;
 }
 
 .name {
   display: inline;
-  font-size: 5.5em;
+  font-size: 8.8em;
 }
 
 .jumbotron {
@@ -42,7 +46,11 @@ a:hover {
   max-width: 480px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 400px;
+  margin-top: 260px;
+  h2,
+  h3 {
+    font-size: 1.6em;
+  }
 }
 
 .service-description {
@@ -65,10 +73,10 @@ a:hover {
   margin-right: 42.5%;
   width: 15%;
   color: #ccc;
-  padding: 10px 0;
+  padding: 10px 10px;
   border: 1px solid $primary-color;
   background: none;
-  font-size: 1.1em;
+  font-size: 1.6em;
   text-align: center;
   background-color: $primary-color;
 }

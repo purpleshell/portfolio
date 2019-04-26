@@ -23,7 +23,7 @@ const Post = ({ match }: any) => {
       ))}
       <div className="post-footer">
         <a className="read-more" href={postInfo.url}>
-          Read More...
+          Don't leave a comment...
         </a>
         <p className="post-meta-info">8-21-2018 | Likes 49 | Comments 12</p>
       </div>
