@@ -3,6 +3,7 @@ import { PostInfo, posts } from "./Data";
 
 const Post = ({ match }: any) => {
   const postInfo: PostInfo = posts[match.params.id];
+  console.log(postInfo);
   return (
     <div className="post">
       <div className="post-header">
@@ -15,9 +16,11 @@ const Post = ({ match }: any) => {
           <h3 className="post-title">{postInfo.title}</h3>
         </a>
       </div>
-      {postInfo.body.map(paragraphText => {
-        <p className="post-preview">{paragraphText}</p>;
-      })}
+      {postInfo.bodyParagraphs.map((bodyParagraph, i) => (
+        <p key={i} className="post-body">
+          {bodyParagraph}
+        </p>
+      ))}
       <div className="post-footer">
         <a className="read-more" href={postInfo.url}>
           Read More...

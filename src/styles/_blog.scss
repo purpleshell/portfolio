@@ -18,14 +18,14 @@
 }
 
 .post-title,
-.post-preview {
+.post-body {
   color: #444;
   padding-left: 25px;
   padding-right: 25px;
 }
 
 .post-title {
-  font-size: 3em;
+  font-size: 4em;
   margin-top: 30px;
   margin-bottom: 25px;
 }
@@ -34,19 +34,16 @@
   color: $primary-color;
 }
 
-.post-preview {
+.post-body {
   margin-top: 20px;
-  font-size: 1.2em;
+  font-size: 1.6em;
   font-family: "Exo 2", sans-serif;
 }
 
 .post-footer {
   background-color: $primary-color;
   border-radius: 5px;
-  margin-top: 60px;
-  margin-left: 25px;
-  margin-right: 25px;
-  margin-bottom: 30px;
+  margin: 30px 25px;
   padding: 15px;
 }
 

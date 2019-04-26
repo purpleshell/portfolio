@@ -20,9 +20,9 @@ const PostPreview: React.FC<Props> = ({ postInfo, blogUrl }) => {
           <h3 className="post-title">{postInfo.title}</h3>
         </a>
       </div>
-      {postInfo.bodyPreview.map((bodyPreviewParagraph, i) => (
-        <p key={i} className="post-preview">
-          {bodyPreviewParagraph.body}
+      {postInfo.bodyParagraphs.slice(0, 2).map((bodyParagraph, i) => (
+        <p key={i} className="post-body">
+          {bodyParagraph}
         </p>
       ))}
       <div className="post-footer">
