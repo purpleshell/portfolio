@@ -1,18 +1,14 @@
 import React from "react";
-
+import gabe from "../images/gabe.png";
 export default () => {
   return (
     <>
-      <div className="about left">
-        <img
-          className="about-photo"
-          src="assets/images/gabe.png"
-          alt="Picture of Gabe"
-        />
+      <div className="about">
+        <img className="about-photo " src={gabe} alt="Picture of Gabe" />
         <div className="about-txt">
-          <h2 className="mini-intro red">I like waterfalls...</h2>
+          <h2 className="mini-intro primary">I like waterfalls...</h2>
           <h1 className="intro">
-            Hi, I'm <span className="red">Gabe</span>
+            Hi, I'm <span className="primary">Anthony</span>
           </h1>
           <div className="about-description">
             <p>
@@ -27,10 +23,10 @@ export default () => {
               the right place!
             </p>
           </div>
+          <div className="cta-btn">
+            <a className="cta-link">Get In Touch</a>
+          </div>
         </div>
-      </div>
-      <div className="cta-btn">
-        <a className="cta-link">Get In Touch</a>
       </div>
     </>
   );

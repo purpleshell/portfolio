@@ -67,11 +67,9 @@ a:hover {
 }
 
 .cta-link {
-  box-sizing: border-box;
-  display: inline-block;
-  margin-left: 42.5%;
-  margin-right: 42.5%;
-  width: 15%;
+  display: block;
+  margin: 0 auto;
+  width: 140px;
   color: #ccc;
   padding: 10px 10px;
   border: 1px solid $primary-color;

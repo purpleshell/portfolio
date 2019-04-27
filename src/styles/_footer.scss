@@ -1,0 +1,20 @@
+/*
+
+Footer
+
+*/
+.footer-nav {
+  display: flex;
+}
+
+.contact-link {
+  svg path {
+    fill: white;
+    transition: $fill-transition;
+  }
+  &:hover {
+    svg path {
+      fill: $primary-color;
+    }
+  }
+}

@@ -7,7 +7,7 @@
 .about {
   margin-top: 175px;
   margin-bottom: 60px;
-  display: table-cell;
+  display: flex;
   vertical-align: middle;
   padding: 0 15px;
 }
@@ -22,7 +22,11 @@
   width: 62%;
   float: right;
   margin-top: 60px;
+  margin-left: 60px;
   box-sizing: border-box;
+  .cta-link {
+    margin: 20px 0 0 0;
+  }
 }
 
 .mini-intro {
