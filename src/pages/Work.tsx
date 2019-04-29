@@ -10,36 +10,60 @@ export default ({ match }: any) => {
         <h1 className="portfolio-title">Previous Work</h1>
         <ol className="portfolio-items">
           <li className="portfolio-item first-work">
-            <div className="portfolio-item-text-bg">
-              <div className="portfolio-item-text">
-                <h2>Humble Beginnings</h2>
-                <p>A man's first foray into webdev. AKA this website.</p>
+            <a href="#">
+              <div className="portfolio-item-text-bg">
+                <div className="portfolio-item-text">
+                  <h2>Humble Beginnings (This Web-Site)</h2>
+                  <p>
+                    My first vanilla HTML/CSS project, which I made for a
+                    friend. I improved and ported it to this basic react app.
+                    Original files and proof of hand-off available upon request.
+                  </p>
+                </div>
               </div>
-            </div>
+            </a>
           </li>
-          <li className="portfolio-item first-work">
-            <div className="portfolio-item-text-bg">
-              <div className="portfolio-item-text">
-                <h2>Humble Beginnings</h2>
-                <p>A man's first foray into webdev. AKA this website.</p>
+          <li className="portfolio-item second-work">
+            <a href="#">
+              <div className="portfolio-item-text-bg">
+                <div className="portfolio-item-text">
+                  <h2>Humble Beginnings (This Web-Site)</h2>
+                  <p>
+                    My first vanilla HTML/CSS project, which I made for a
+                    friend. I improved and ported it to this basic react app.
+                    Original files and proof of hand-off available upon request.
+                  </p>
+                </div>
               </div>
-            </div>
+            </a>
           </li>
-          <li className="portfolio-item first-work">
-            <div className="portfolio-item-text-bg">
-              <div className="portfolio-item-text">
-                <h2>Humble Beginnings</h2>
-                <p>A man's first foray into webdev. AKA this website.</p>
+          <li className="portfolio-item third-work">
+            <a href="#">
+              <div className="portfolio-item-text-bg">
+                <div className="portfolio-item-text">
+                  <h2>Humble Beginnings (This Web-Site)</h2>
+                  <p>
+                    My first vanilla HTML/CSS project, which I made for a
+                    friend. I improved and ported it to this basic react app.
+                    Original files and proof of hand-off available upon request.
+                  </p>
+                </div>
               </div>
-            </div>
+            </a>
           </li>
-          <li className="portfolio-item next-work">
-            <div className="portfolio-item-text-bg">
-              <div className="portfolio-item-text">
-                <h2>What's Next?</h2>
-                <p>So the world might be mended...</p>
+          <li className="portfolio-item fourth-work">
+            <a href="#">
+              <div className="portfolio-item-text-bg">
+                <div className="portfolio-item-text">
+                  <h2>Humble Beginnings (This Web-Site)</h2>
+                  <p>
+                    My first vanilla HTML/CSS project, which I made for a
+                    friend. I improved and ported it to this basic react app.
+                    Original files and proof of hand-off available upon request.
+                  </p>
+                </div>
               </div>
-            </div>
+            </a>
           </li>
         </ol>
       </div>

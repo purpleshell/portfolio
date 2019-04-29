@@ -51,21 +51,25 @@
   width: 100%;
   opacity: 0;
   transition: opacity 0.5s ease;
-  background-color: #11111188;
+  background-color: #111111aa;
   text-align: right;
   padding: 15px;
   position: relative;
   bottom: 0;
 }
 
-.portfolio-item:hover .portfolio-item-text-bg {
-  opacity: 1;
+.portfolio-item:hover {
+  border-color: #ccc7;
+  .portfolio-item-text-bg {
+    opacity: 1;
+  }
 }
 
 .portfolio-item-text {
   position: absolute;
-  bottom: 15px;
-  right: 15px;
+  bottom: 0;
+  right: 0;
+  padding: 15px;
 }
 
 .portfolio-item-text h2 {

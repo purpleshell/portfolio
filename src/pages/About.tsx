@@ -13,10 +13,9 @@ export default () => {
           <div className="about-description">
             <p>
               If I'm not busy making a website or spending time with my
-              beautiful family, it probably means im off brewing coffee, brewing
-              decks or fixing someone's pc. Lorem ipsum dolor sit amet,
-              consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-              labore et dolore magna aliqua.
+              beautiful family, it probably means im off coding something cool,
+              learning some new tech, doing some resistance training or cooking
+              up some plant based goodness.
             </p>
             <p>
               Looking to expand your brand's online footprint? You've come to
