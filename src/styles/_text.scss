@@ -43,13 +43,13 @@ a:hover {
 
 .jumbotron {
   /*text-align: center;*/
-  max-width: 480px;
+  max-width: 400px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 260px;
   h2,
   h3 {
     font-size: 1.6em;
+    font-family: $text-font;
   }
 }
 
@@ -75,6 +75,7 @@ a:hover {
   border: 1px solid $primary-color;
   background: none;
   font-size: 1.6em;
+  font-family: $heading-font;
   text-align: center;
   background-color: $primary-color;
 }

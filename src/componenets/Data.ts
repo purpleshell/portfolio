@@ -39,9 +39,18 @@ export const posts: PostInfo[] = [
     url: "0"
   },
   {
-    title: "Hi Brit",
+    title: "Significant Dietary Protein Sources Part 1",
     bannerImageLink: veggies,
-    bodyParagraphs: ["Post paragraph body"],
+    bodyParagraphs: [
+      paragraph.concat(
+        "At ~25% protein by mass(more than double extra-firm tofu's ~10.5%), ",
+        "hempeh is a superfood powerhouse. A soy-free alternative to tempeh, ",
+        "hempeh is made using nuts, hemp seeds and other non-soy beans. ",
+        "This leaves us with all the benefits of tempeh, in addition to more protein, ",
+        "in an allergen-free package."
+      ),
+      paragraph.concat("")
+    ],
     url: "1"
   }
 ];

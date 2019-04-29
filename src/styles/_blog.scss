@@ -4,8 +4,11 @@
 
 ----------------------------------------- */
 
+.blog-posts {
+  margin-top: 40px;
+}
 .post {
-  border: 1px solid #111111;
+  border: $border;
   background-color: #cccccc;
   margin-bottom: 40px;
 }
@@ -50,6 +53,11 @@
 .read-more,
 .post-meta-info {
   display: inline-block;
+  font-size: 1.2em;
+}
+
+.read-more:hover {
+  color: #111;
 }
 
 .post-meta-info {

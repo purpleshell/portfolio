@@ -3,11 +3,34 @@
 Footer
 
 */
+footer {
+  grid-row-start: 3;
+  grid-column-start: 1;
+  align-self: center;
+  justify-self: center;
+  width: 100%;
+  align-items: center;
+  justify-items: center;
+}
+
+.bottom-space {
+  grid-row-start: 5;
+}
+
 .footer-nav {
   display: flex;
 }
 
 .contact-link {
+  display: flex;
+  line-height: 1.6em;
+  font-size: 1.6em;
+  svg {
+    padding-top: 6px;
+    margin-right: 5px;
+    width: 24px;
+    height: 24px;
+  }
   svg path {
     fill: white;
     transition: $fill-transition;
@@ -16,5 +39,18 @@ Footer
     svg path {
       fill: $primary-color;
     }
+  }
+  &:nth-child(2) {
+    margin-left: auto;
+  }
+  .contact-link-text {
+    margin-top: 2px;
+  }
+}
+
+@media (min-width: 448px) {
+  footer {
+    grid-row-start: 4;
+    grid-column-start: 2;
   }
 }

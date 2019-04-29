@@ -5,32 +5,27 @@
 ----------------------------------------- */
 
 .about {
-  margin-top: 175px;
-  margin-bottom: 60px;
   display: flex;
-  vertical-align: middle;
-  padding: 0 15px;
 }
 
 .about-photo {
+  display: none;
   width: 300px;
   height: 350px;
-  border: 1px solid #cccccccc;
+  border: $border;
 }
 
 .about-txt {
-  width: 62%;
-  float: right;
-  margin-top: 60px;
-  margin-left: 60px;
+  text-align: center;
   box-sizing: border-box;
+  max-width: 600px;
   .cta-link {
-    margin: 20px 0 0 0;
+    margin: 20px auto;
   }
 }
 
 .mini-intro {
-  font-size: 0.9em;
+  font-size: 1.2em;
   font-family: "Exo 2", sans-serif;
 }
 
@@ -40,6 +35,16 @@
 
 .about-description p {
   margin-top: 20px;
-  font-size: 1.1em;
+  font-size: 1.6em;
   font-family: "Exo 2", sans-serif;
 }
+
+// * use me with an about photo
+// @media (min-width: 768px) {
+//   .about-photo {
+//     // display: inline;
+//   }
+//   .about-txt {
+//     // margin-left: 60px;
+//   }
+// }

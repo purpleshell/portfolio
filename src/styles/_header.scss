@@ -4,6 +4,11 @@
 
 -------------------------------------- */
 
+.App-header {
+  grid-row-start: 1;
+  grid-column-start: 1;
+}
+
 .logo img {
   width: 64px;
   height: 64px;
@@ -25,11 +30,19 @@ nav li {
 }
 
 .nav-link {
-  font-size: 1.6em;
+  font-size: 1.8em;
+  font-family: "Exo 2";
   padding-bottom: 5px;
 }
 
 .active {
   color: $primary-color;
   border-bottom: 1px solid $primary-color;
+}
+
+@media (min-width: 448px) {
+  .App-header {
+    grid-row-start: 2;
+    grid-column-start: 2;
+  }
 }
