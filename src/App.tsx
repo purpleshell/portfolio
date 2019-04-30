@@ -9,6 +9,7 @@ import Post from "./componenets/Post";
 import logo from "./images/purp3.svg";
 import About from "./pages/About";
 import Blog from "./pages/Blog";
+import Contact from "./pages/Contact";
 import Home from "./pages/Home";
 import Work from "./pages/Work";
 
@@ -68,6 +69,7 @@ class App extends Component {
           <div className="content">
             <Route path="/" exact component={Home} />
             <Route path="/about" exact component={About} />
+            <Route path="/contact" exact component={Contact} />
             <Route exact path={"/work"} component={Work} />
             <Route exact path="/blog" component={Blog} />
             <Route exact path="/blog/:id" component={Post} />

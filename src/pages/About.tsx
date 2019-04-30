@@ -23,7 +23,9 @@ export default () => {
             </p>
           </div>
           <div className="cta-btn">
-            <a className="cta-link">Get In Touch</a>
+            <a className="cta-link" href="mailto:admin@purpleshell.xyz">
+              Get In Touch
+            </a>
           </div>
         </div>
       </div>

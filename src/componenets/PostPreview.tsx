@@ -11,7 +11,7 @@ const PostPreview: React.FC<Props> = ({ postInfo, blogUrl }) => {
   return (
     <div className="post">
       <div className="post-header">
-        <a href="blog/journal.html">
+        <a href={`${blogUrl}/${postInfo.url}`}>
           <img
             className="post-banner"
             src={postInfo.bannerImageLink}

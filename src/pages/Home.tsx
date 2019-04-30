@@ -11,7 +11,9 @@ const Home = () => {
         <h3 className="service-description">solutions for the modern web</h3>
       </div>
       <div className="cta-btn">
-        <a className="cta-link">Get In Touch</a>
+        <a className="cta-link" href="/work">
+          See Projects
+        </a>
       </div>
     </>
   );
