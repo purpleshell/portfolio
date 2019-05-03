@@ -25,13 +25,13 @@ export default ({ match }: any) => {
             </a>
           </li>
           <li className="portfolio-item grid-example">
-            <a href="#">
+            <a href="https://seenyx.herokuapp.com">
               <div className="portfolio-item-text-bg">
                 <div className="portfolio-item-text">
                   <h2>CSS Grid Example</h2>
                   <p>
-                    A quick mockup of a blog index which I made while learning
-                    CSS Grid.
+                    A quick client-side only demo of a mock storefront delivery
+                    service, designed by a friend.
                   </p>
                 </div>
               </div>
