@@ -7,7 +7,6 @@ interface Props {
 }
 
 const PostPreview: React.FC<Props> = ({ postInfo, blogUrl }) => {
-  console.log({ postInfo });
   return (
     <div className="post">
       <div className="post-header">
