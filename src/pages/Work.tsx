@@ -24,7 +24,7 @@ export default ({ match }: any) => {
               </div>
             </a>
           </li>
-          <li className="portfolio-item grid-example">
+          {/* <li className="portfolio-item grid-example">
             <a href="https://seenyx.herokuapp.com">
               <div className="portfolio-item-text-bg">
                 <div className="portfolio-item-text">
@@ -52,7 +52,7 @@ export default ({ match }: any) => {
                 </div>
               </div>
             </a>
-          </li>
+          </li> */}
           <li className="portfolio-item first-work">
             <a href="#">
               <div className="portfolio-item-text-bg">

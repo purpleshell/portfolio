@@ -12,7 +12,7 @@ const paragraph = "";
 
 export const posts: PostInfo[] = [
   {
-    title: "This One Habit Will Change Your Life..",
+    title: "These Are Mock Posts..",
     bannerImageLink: bulletJournal,
     bodyParagraphs: [
       paragraph.concat(
